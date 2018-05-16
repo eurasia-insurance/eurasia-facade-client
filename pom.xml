@@ -20,7 +20,7 @@
 		<java-commons.version>1.3</java-commons.version>
 		<payara-bom.version>4.1.2-2</payara-bom.version>
 		<!-- tech -->
-		<eurasia-domain.version>1.0-SNAPSHOT</eurasia-domain.version>
+		<eurasia-domain.version>1.0</eurasia-domain.version>
 		<!-- oldies -->
 		<international-lib.version>3.3</international-lib.version>
 	</properties>

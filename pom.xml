@@ -96,9 +96,9 @@
 	</dependencies>
 
 	<scm>
-		<connection>scm:git:https://gitlab.lapsa.tech/lapsa/eurasia/facade-client.git</connection>
-		<developerConnection>scm:git:https://gitlab.lapsa.tech/lapsa/eurasia/facade-client.git</developerConnection>
-		<tag>v1.0</tag>
+		<connection>scm:git:https://github.com/eurasia-insurance/eurasia-facade-client.git</connection>
+		<developerConnection>scm:git:https://github.com/eurasia-insurance/eurasia-facade-client.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>

@@ -5,10 +5,7 @@ import java.util.List;
 import javax.ejb.Local;
 import javax.ejb.Remote;
 
-import com.lapsa.kz.country.KZCity;
-
 import tech.lapsa.eurasia.domain.CompanyPointOfSale;
-import tech.lapsa.java.commons.exceptions.IllegalArgument;
 
 public interface CompanyPointOfSaleFacade extends EJBConstants {
 
@@ -22,17 +19,7 @@ public interface CompanyPointOfSaleFacade extends EJBConstants {
     public interface CompanyPointOfSaleFacadeRemote extends CompanyPointOfSaleFacade {
     }
 
-    List<CompanyPointOfSale> pointOfSalesForPickup();
-
-    List<CompanyPointOfSale> pointOfSalesForPickup(KZCity city) throws IllegalArgument;
-
-    List<CompanyPointOfSale> pointOfSalesForDelivery();
-
-    List<CompanyPointOfSale> pointOfSalesForDelivery(KZCity city)
-	    throws IllegalArgument;
-
-    List<KZCity> getCitiesForPickup();
-
-    List<CompanyPointOfSale> findAllOwnOffices();
+    List<CompanyPointOfSale> findAll();
+    List<CompanyPointOfSale> findAllAvailable();
 
 }
